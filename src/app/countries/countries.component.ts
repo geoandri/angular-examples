@@ -9,9 +9,9 @@ import { Country } from './country.model';
 })
 export class CountriesComponent implements OnInit {
 
-  countries : Country[]
+  countries: Country[]
 
-  constructor(private countriesService : CountriesService) { }
+  constructor(private countriesService: CountriesService) { }
 
   ngOnInit(): void {
     this.countriesService.getCountries().subscribe(response => this.countries = response);

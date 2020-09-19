@@ -1,6 +1,6 @@
-export interface Country {  
+export interface Country {
     name: string;
     flag: string;
     capital: string;
     region: string;
-  }
+}

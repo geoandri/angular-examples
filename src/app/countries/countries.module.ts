@@ -10,8 +10,8 @@ import { BrowserModule } from '@angular/platform-browser';
   declarations: [CountriesComponent],
   imports: [
     CommonModule, HttpClientModule, BrowserModule
-    
+
   ],
-  exports : [CountriesComponent]
+  exports: [CountriesComponent]
 })
 export class CountriesModule { }
